@@ -1,1 +1,1 @@
-A fun prject featuring different functions.
+A fun project featuring different functions.
