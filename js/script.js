@@ -4,7 +4,7 @@ const h2 = document.querySelector("h2");
 
 
 var startMyDay = function () {
-  h1.innerText = "Time for a coffee and a shower!";
+  h1.innerText = "It's important to stay hydrated!";
 };
 
 //console.log(startMyDay);
@@ -12,12 +12,12 @@ var startMyDay = function () {
 startMyDay();
 
 
-var favoriteCookie = function (cookie) {
-  p.innerText = `My favorite cookie is ${cookie}.`;
+var favoriteDrink = function (drink) {
+  p.innerText = `My favorite drink is ${drink}.`;
 };
 
 //console.log(favoriteCookie("chocolate chip"));
-favoriteCookie("chocolate chip");
+favoriteDrink("lemonade");
 
 var introduce = function (name, occupation) {
   h2.innerText = `Hi my name is ${name} and I am a  ${occupation}.`;
